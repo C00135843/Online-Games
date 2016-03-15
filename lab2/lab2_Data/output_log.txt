@@ -1,0 +1,45 @@
+Mono path[0] = 'C:/Users/c00135843/Documents/online game tech/Online-Games/lab2/lab2_Data/Managed'
+Mono path[1] = 'C:/Users/c00135843/Documents/online game tech/Online-Games/lab2/lab2_Data/Mono'
+Mono config path = 'C:/Users/c00135843/Documents/online game tech/Online-Games/lab2/lab2_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/c00135843/Documents/online game tech/Online-Games/lab2/lab2_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55478
+Multi-casting "[IP] 149.153.102.57 [Port] 55478 [Flags] 3 [Guid] 1314395105 [EditorId] 370337170 [Version] 1048832 [Id] WindowsPlayer(D422C057) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [149.153.102.57:55478]...
+PlayerConnection accepted from [149.153.102.57] handle:0x1e4
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56105
+PlayerConnection already initialized - listening to [149.153.102.57:55478]
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6900 Series  (ID=0x6719)
+    Vendor:   ATI
+    VRAM:     2032 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.092 seconds
+desktop: 1440x900 60Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\lab2_Data\Managed\System.dll (this message is harmless)
+Socket Open. SocketId is: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+NetScript:Start() (at C:\Users\c00135843\Documents\online game tech\Online-Games\lab2\Assets\NetScript.cs:24)
+ 
+(Filename: C:/Users/c00135843/Documents/online game tech/Online-Games/lab2/Assets/NetScript.cs Line: 24)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: b60 -> priority: 1 
+  Thread -> id: 10f0 -> priority: 1 
+Waiting for finish
