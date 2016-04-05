@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="sample">
+
+<target name="server">
+						
+			<path id="jsch.path">
+				<pathelement location="lib/ant-jsch.jar" />
+				<pathelement location="lib/jsch-0.1.50.jar" />
+			</path>
+			<!--This copies your file(s) across-->
+			<taskdef name="scp" classname="org.apache.tools.ant.taskdefs.optional.ssh.Scp" classpathref="jsch.path" />
+			
+						<scp todir="ubuntu@52.37.129.225:/home/ubuntu/"
+						trust="true"
+							keyfile="C:\Users\c00135843\Desktop\PEM\stevensinnott.pem"
+							passphrase="">
+			
+			<fileset file="C:\apache-ant-1.9.6-bin\apache-ant-1.9.6\test.py"/>
+
+		</scp>
+			
+			<!--This executes actions on your EC2 instance - in this case runs your server-->
+			<taskdef name="sshexec" classname="org.apache.tools.ant.taskdefs.optional.ssh.SSHExec" classpathref="jsch.path" />
+						
+			<sshexec host="52.37.129.225"
+								username="ubuntu"
+								trust="true"
+								keyfile="C:\Users\c00135843\Desktop\PEM\stevensinnott.pem"
+								passphrase=""
+				command="sudo python3 test.py" 
+				
+
+			/>
+
+			
+		</target>
+
+</project>
